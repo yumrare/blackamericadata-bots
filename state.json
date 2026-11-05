@@ -12,6 +12,10 @@
    "black-population-atlanta": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzl2x75kzh2z",
     "at": "2026-11-05T14:22:38.934220+00:00"
+   },
+   "black-educational-attainment": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzl6ndglxz2d",
+    "at": "2026-11-05T15:28:42.827607+00:00"
    }
   }
  }
