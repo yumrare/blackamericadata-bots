@@ -76,8 +76,12 @@ def xrpc(method, url, token=None, data=None, content_type="application/json"):
         body = bytes(data) if isinstance(data, (bytes, bytearray)) else json.dumps(data).encode()
         headers["Content-Type"] = content_type
     req = urllib.request.Request(url, data=body, headers=headers, method=method)
-    with urllib.request.urlopen(req, timeout=30) as r:
-        raw = r.read()
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            raw = r.read()
+    except urllib.error.HTTPError as e:
+        detail = e.read().decode("utf-8", "replace")[:400]
+        raise RuntimeError(f"xrpc {method} {url} -> HTTP {e.code}: {detail}")
     return json.loads(raw) if raw else {}
 
 
