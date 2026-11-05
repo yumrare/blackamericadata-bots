@@ -543,7 +543,7 @@ def pending_mirror(catalog, st):
 def mode_post(dry=False):
     catalog = load_catalog()
     st = load_state()
-    item = pending_mirror(catalog, st)
+    item = pending_mirror(catalog, st) if nostr_enabled() else None
     mirroring = item is not None
     if item is None:
         item = next_unposted(catalog, st)
@@ -564,6 +564,9 @@ def mode_post(dry=False):
             "uri": uri, "at": now().isoformat()}
         save_state(st)
         log(f"bluesky: posted {item['slug']} -> {uri}")
+    if not nostr_enabled():
+        log("nostr: no key configured — Bluesky-only run, mirror skipped")
+        return 0
     ev_id = post_nostr_note(text)
     st["nostr"]["posted"][item["slug"]] = {
         "id": ev_id, "at": now().isoformat()}

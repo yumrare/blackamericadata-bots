@@ -1,12 +1,18 @@
 # Black America Data — bot team
 
 Automated distribution for [blackamericadata.com](https://blackamericadata.com):
-**6 posts a day to Bluesky, each mirrored to Nostr — 12 posts a day** —
-rotating through the site's 800-article catalog.
+**10 posts a day to Bluesky**, rotating through the site's 800-article
+catalog. A Nostr mirror is built into the engine and activates
+automatically if a `NOSTR_PRIVATE_KEY` secret is set; until then the
+team runs Bluesky-only (owner's call, 2026-11-04).
 
 This team is a completely separate business system from the Happy Foods
 push-bots fleet: separate Bluesky account, separate Nostr identity,
 separate repo, separate credentials. No intersection.
+
+- Bluesky: [@healthandfittness.bsky.social](https://bsky.app/profile/healthandfittness.bsky.social)
+  (display name "Black America Data")
+- Nostr identity (reserved, not yet wired): npub1eyhd2j70sdwk37jvsrzy8g7lplqs0lsxfyuk9zvcscpem0800qassmnnwp
 
 ## How it works
 
@@ -19,13 +25,12 @@ separate repo, separate credentials. No intersection.
   workflow after each run. An article is marked posted on a platform
   only after that platform accepts the post; a failed Nostr mirror is
   retried at the start of the next run. Nothing ever posts twice.
-- `.github/workflows/post.yml` — six scheduled runs a day.
+- `.github/workflows/post.yml` — ten scheduled runs a day.
 
 ## Credentials
 
 Live ONLY in this repo's GitHub secrets: `BSKY_HANDLE`,
-`BSKY_APP_PASSWORD`, `NOSTR_PRIVATE_KEY`. The Nostr private key exists
-nowhere else; the local build copy was shredded after deploy.
+`BSKY_APP_PASSWORD`, and `NOSTR_PRIVATE_KEY` (when wired).
 
 ## Post shape
 
