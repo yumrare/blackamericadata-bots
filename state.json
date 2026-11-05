@@ -32,6 +32,10 @@
    "black-median-household-income": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzlsdyuxa32m",
     "at": "2026-11-05T21:21:24.622891+00:00"
+   },
+   "black-population-new-york-city": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzlx3h7gos2d",
+    "at": "2026-11-05T22:46:06.346059+00:00"
    }
   }
  }
