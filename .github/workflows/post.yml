@@ -1,17 +1,23 @@
 name: post
 
-# Six runs a day; each run posts one article to Bluesky and mirrors
-# it to Nostr (12 posts a day total). Cron is UTC; slots land at
-# roughly 7am, 10am, 1pm, 4pm, 7pm, 10pm US/Central (an hour earlier
-# during daylight time — same drift the fleet lives with).
+# Ten runs a day; each run posts one article to Bluesky. The Nostr
+# mirror activates automatically once a NOSTR_PRIVATE_KEY secret is
+# set; with no key configured the bot runs Bluesky-only and skips
+# the mirror cleanly. Cron is UTC; slots land at roughly 7:07am,
+# 8:37am, 10:07am, 11:37am, 1:07pm, 2:37pm, 4:07pm, 5:37pm, 7:07pm,
+# 8:37pm US/Central (an hour earlier during daylight time).
 on:
   schedule:
     - cron: "7 13 * * *"
+    - cron: "37 14 * * *"
     - cron: "7 16 * * *"
+    - cron: "37 17 * * *"
     - cron: "7 19 * * *"
+    - cron: "37 20 * * *"
     - cron: "7 22 * * *"
+    - cron: "37 23 * * *"
     - cron: "7 1 * * *"
-    - cron: "7 4 * * *"
+    - cron: "37 2 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -29,7 +35,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Post next article (Bluesky + Nostr mirror)
+      - name: Post next article (Bluesky; Nostr mirror when key set)
         env:
           BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
           BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
