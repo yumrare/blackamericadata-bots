@@ -1,0 +1,44 @@
+name: post
+
+# Six runs a day; each run posts one article to Bluesky and mirrors
+# it to Nostr (12 posts a day total). Cron is UTC; slots land at
+# roughly 7am, 10am, 1pm, 4pm, 7pm, 10pm US/Central (an hour earlier
+# during daylight time — same drift the fleet lives with).
+on:
+  schedule:
+    - cron: "7 13 * * *"
+    - cron: "7 16 * * *"
+    - cron: "7 19 * * *"
+    - cron: "7 22 * * *"
+    - cron: "7 1 * * *"
+    - cron: "7 4 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bad-bots-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Post next article (Bluesky + Nostr mirror)
+        env:
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          NOSTR_PRIVATE_KEY: ${{ secrets.NOSTR_PRIVATE_KEY }}
+        run: python3 bot.py post
+      - name: Commit rotation state
+        run: |
+          git config user.name "bad-bots"
+          git config user.email "actions@github.com"
+          git add state.json
+          git diff --cached --quiet || git commit -m "state: rotation"
+          git push
