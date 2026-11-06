@@ -60,6 +60,10 @@
    "black-population-washington-dc": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzntremgad2s",
     "at": "2026-11-06T16:52:06.380667+00:00"
+   },
+   "black-college-enrollment": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mznyy3wrqa2n",
+    "at": "2026-11-06T18:25:20.871142+00:00"
    }
   }
  }
