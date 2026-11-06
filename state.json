@@ -44,6 +44,10 @@
    "black-median-weekly-earnings": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzmcghsily2p",
     "at": "2026-11-06T02:09:07.254729+00:00"
+   },
+   "diabetes-black-adults": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzmghukbn52w",
+    "at": "2026-11-06T03:21:29.127208+00:00"
    }
   }
  }
