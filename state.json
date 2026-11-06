@@ -52,6 +52,10 @@
    "black-buying-power": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mznl4dln4723",
     "at": "2026-11-06T14:17:10.729432+00:00"
+   },
+   "black-poverty-rate": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mznojv5lk72e",
+    "at": "2026-11-06T15:18:26.557634+00:00"
    }
   }
  }
