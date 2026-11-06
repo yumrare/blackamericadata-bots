@@ -36,6 +36,10 @@
    "black-population-new-york-city": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzlx3h7gos2d",
     "at": "2026-11-05T22:46:06.346059+00:00"
+   },
+   "hbcu-enrollment-degrees": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzm45efsrr2p",
+    "at": "2026-11-06T00:16:39.259353+00:00"
    }
   }
  }
