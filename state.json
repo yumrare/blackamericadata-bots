@@ -80,6 +80,10 @@
    "black-homeownership-rate": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzomh2kzgz2v",
     "at": "2026-11-07T00:13:43.849926+00:00"
+   },
+   "black-population-chicago": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzos5vyiv62e",
+    "at": "2026-11-07T01:55:59.514483+00:00"
    }
   }
  }
