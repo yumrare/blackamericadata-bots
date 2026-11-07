@@ -92,6 +92,10 @@
    "black-workers-by-occupation": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzq256dxg72t",
     "at": "2026-11-07T13:51:24.387910+00:00"
+   },
+   "black-health-insurance-coverage": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzq6s6sspi2d",
+    "at": "2026-11-07T15:14:44.473502+00:00"
    }
   }
  }
