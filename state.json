@@ -128,6 +128,10 @@
    "black-population-georgia": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzrhifjfcu2s",
     "at": "2026-11-08T03:22:59.387145+00:00"
+   },
+   "black-population-dallas": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzsklwdv6s2n",
+    "at": "2026-11-08T13:51:18.662887+00:00"
    }
   }
  }
