@@ -132,6 +132,10 @@
    "black-population-dallas": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzsklwdv6s2n",
     "at": "2026-11-08T13:51:18.662887+00:00"
+   },
+   "black-students-k12-enrollment-outcomes": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzsp5uhx752s",
+    "at": "2026-11-08T15:12:55.638682+00:00"
    }
   }
  }
