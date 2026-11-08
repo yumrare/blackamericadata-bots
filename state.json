@@ -152,6 +152,10 @@
    "black-population-florida": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mztda72spm2b",
     "at": "2026-11-08T21:12:08.693888+00:00"
+   },
+   "black-population-los-angeles": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzthxohsyd2b",
+    "at": "2026-11-08T22:36:51.556172+00:00"
    }
   }
  }
