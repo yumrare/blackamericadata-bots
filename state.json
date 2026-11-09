@@ -164,6 +164,10 @@
    "black-youth-employment": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzttrh6xps2u",
     "at": "2026-11-09T02:08:07.529663+00:00"
+   },
+   "heart-disease-black-adults": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mztxtdegde2j",
+    "at": "2026-11-09T03:20:45.608640+00:00"
    }
   }
  }
