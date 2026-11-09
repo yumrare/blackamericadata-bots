@@ -168,6 +168,10 @@
    "heart-disease-black-adults": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mztxtdegde2j",
     "at": "2026-11-09T03:20:45.608640+00:00"
+   },
+   "black-farmers-land-ownership": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzv4qyqvzb2j",
+    "at": "2026-11-09T14:21:35.805065+00:00"
    }
   }
  }
