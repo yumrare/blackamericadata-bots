@@ -188,6 +188,10 @@
    "black-healthcare-workers": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzvuiu7exb2c",
     "at": "2026-11-09T21:26:32.380906+00:00"
+   },
+   "obesity-rates-black-adults": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzvyskrsww2b",
+    "at": "2026-11-09T22:43:33.005669+00:00"
    }
   }
  }
