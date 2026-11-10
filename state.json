@@ -212,6 +212,10 @@
    "black-workers-technology": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzxqgnuuln2g",
     "at": "2026-11-10T15:19:03.161178+00:00"
+   },
+   "black-mental-health-data": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzxvnrirll2y",
+    "at": "2026-11-10T16:52:30.540721+00:00"
    }
   }
  }
