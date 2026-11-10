@@ -200,6 +200,10 @@
    "black-population-new-york-state": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzwdsr4ikj2r",
     "at": "2026-11-10T02:00:30.808262+00:00"
+   },
+   "black-population-baltimore": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3mzwia3ab4z25",
+    "at": "2026-11-10T03:19:32.599629+00:00"
    }
   }
  }
