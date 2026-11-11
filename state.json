@@ -264,6 +264,10 @@
    "kidney-disease-black-adults": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n22qjnq7dr2o",
     "at": "2026-11-11T19:58:42.895450+00:00"
+   },
+   "black-owned-construction-companies": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n23236qwfe2x",
+    "at": "2026-11-11T22:49:34.815579+00:00"
    }
   }
  }
