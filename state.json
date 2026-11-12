@@ -296,6 +296,10 @@
    "black-population-north-carolina": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n253uvpyoi2f",
     "at": "2026-11-12T18:27:10.983080+00:00"
+   },
+   "black-population-philadelphia": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n25arlayal2o",
+    "at": "2026-11-12T19:54:48.055091+00:00"
    }
   }
  }
