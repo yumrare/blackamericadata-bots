@@ -272,6 +272,10 @@
    "foreign-born-black-population": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n237nlfe5k2y",
     "at": "2026-11-12T00:29:20.751291+00:00"
+   },
+   "black-population-miami": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n23fg26fgn2y",
+    "at": "2026-11-12T02:12:30.289418+00:00"
    }
   }
  }
