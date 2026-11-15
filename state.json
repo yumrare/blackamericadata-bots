@@ -392,6 +392,10 @@
    "black-population-virginia": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n2cpzpqpmz2z",
     "at": "2026-11-15T00:11:06.034847+00:00"
+   },
+   "black-population-cleveland": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n2cwc7vy4c23",
+    "at": "2026-11-15T02:03:13.860110+00:00"
    }
   }
  }
