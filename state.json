@@ -440,6 +440,10 @@
    "black-population-illinois": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n2flynwbnk23",
     "at": "2026-11-16T03:36:54.806714+00:00"
+   },
+   "black-population-milwaukee": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n2guxr24k52f",
+    "at": "2026-11-16T15:50:07.935234+00:00"
    }
   }
  }
