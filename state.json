@@ -512,6 +512,10 @@
    "black-population-arkansas": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n2kqknpfxp2l",
     "at": "2026-11-18T04:41:52.218534+00:00"
+   },
+   "black-population-kansas-city": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n2l54r7bsq23",
+    "at": "2026-11-18T08:26:44.779487+00:00"
    }
   }
  }
