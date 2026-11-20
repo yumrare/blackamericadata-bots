@@ -584,6 +584,10 @@
    "black-population-indiana": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n2pi232osh23",
     "at": "2026-11-20T01:52:44.568534+00:00"
+   },
+   "black-population-denver": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n2plpcghiw2k",
+    "at": "2026-11-20T02:58:18.156813+00:00"
    }
   }
  }
