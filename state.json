@@ -680,6 +680,10 @@
    "black-population-pennsylvania": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n2vess7oyk27",
     "at": "2026-11-22T10:10:57.611156+00:00"
+   },
+   "black-population-jacksonville": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n2wgon7zdi2f",
+    "at": "2026-11-22T20:17:05.378072+00:00"
    }
   }
  }
