@@ -704,6 +704,10 @@
    "black-population-michigan": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n2wwtd7edj2k",
     "at": "2026-11-23T01:06:02.489539+00:00"
+   },
+   "black-population-columbus": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n2x3hmeru32w",
+    "at": "2026-11-23T02:28:58.170913+00:00"
    }
   }
  }
