@@ -696,6 +696,10 @@
    "sleep-health-black-adults": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n2woxpogcj2j",
     "at": "2026-11-22T22:45:19.852400+00:00"
+   },
+   "black-architects-engineering-firms": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n2wttwj65o24",
+    "at": "2026-11-23T00:12:41.517372+00:00"
    }
   }
  }
