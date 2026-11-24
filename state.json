@@ -756,6 +756,10 @@
    "black-population-austin": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n32hw2ztu627",
     "at": "2026-11-24T10:49:47.403964+00:00"
+   },
+   "black-homeless-students-education": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n32oqcgh3v25",
+    "at": "2026-11-24T12:51:50.034304+00:00"
    }
   }
  }
