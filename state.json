@@ -772,6 +772,10 @@
    "black-owned-pharmacies": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n33vyhcfgw2k",
     "at": "2026-11-25T00:34:19.525679+00:00"
+   },
+   "black-population-colorado": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n33zdtbc5h24",
+    "at": "2026-11-25T01:34:22.385149+00:00"
    }
   }
  }
