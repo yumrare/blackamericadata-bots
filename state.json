@@ -800,6 +800,10 @@
    "black-population-connecticut": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n3534advja23",
     "at": "2026-11-25T11:38:34.912725+00:00"
+   },
+   "black-population-orlando": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n367cigivz25",
+    "at": "2026-11-25T22:26:19.399584+00:00"
    }
   }
  }
