@@ -864,6 +864,10 @@
    "organ-transplant-waitlist-black-patients": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n3b7rcthla2z",
     "at": "2026-11-27T03:12:36.077501+00:00"
+   },
+   "black-owned-insurance-companies": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n3bcn5s46y2e",
+    "at": "2026-11-27T04:03:57.785957+00:00"
    }
   }
  }
