@@ -896,6 +896,10 @@
    "black-population-kansas": {
     "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n3dhqv7by227",
     "at": "2026-11-28T00:40:51.193515+00:00"
+   },
+   "black-population-buffalo": {
+    "uri": "at://did:plc:k5cd6fs2owcabafrl4ez5oq5/app.bsky.feed.post/3n3dltpevrb27",
+    "at": "2026-11-28T01:54:00.743012+00:00"
    }
   }
  }
